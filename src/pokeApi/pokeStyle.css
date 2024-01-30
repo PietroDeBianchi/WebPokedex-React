@@ -1,0 +1,98 @@
+li {
+    list-style: none;
+}
+
+img {
+    margin-top: 8px;
+}
+
+/* pokeStyle.css */
+
+main {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5079b204-466e-4144-a006-3daec06673f0/d9gv7vf-4ecf1512-2935-4af4-8c9d-0c0913c3488b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwNzliMjA0LTQ2NmUtNDE0NC1hMDA2LTNkYWVjMDY2NzNmMFwvZDlndjd2Zi00ZWNmMTUxMi0yOTM1LTRhZjQtOGM5ZC0wYzA5MTNjMzQ4OGIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xQmjU0o0eDed825eBxCgxthDUa4bhO_7Jc4_yZLVkSw');
+    background-size: cover;
+}
+
+.pokedex-container {
+    background-color: #e71f11;
+    /* Add your preferred color here */
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 400px;
+}
+
+.pokedex-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.pokedex-input {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.pokemon-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-image {
+    background-color: #f2f2f23a;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.pokemon-details {
+    list-style: none;
+    background-color: rgba(44, 40, 40, 0.849);
+    padding: 24px 12px;
+    border-radius: 8px;
+    color: white;
+    min-width: 312px;
+}
+
+.pokemon-details li {
+    margin-bottom: 10px;
+}
+
+button {
+    --bg: #e74c3c;
+    --text-color: #fff;
+    position: relative;
+    width: 120px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+button:active {
+    top: 4px;
+    box-shadow: #c0392b 0px 3px 2px, #000 0px 3px 5px;
+}

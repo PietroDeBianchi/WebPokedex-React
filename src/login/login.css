@@ -1,0 +1,9 @@
+.loginContainer {
+    background-color: rgba(223, 13, 13, 0.411);
+    border-radius: 8px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.logimg {
+    max-width: 512px;
+}
